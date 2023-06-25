@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial
+}
+
+#topo {
+    background: #800000;
+    overflow: hidden;
+    padding: 40px ;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    float: none;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.rede {
+    float: left;
+    width: 20%;
+}
+
+.menu {
+    float: center;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.menu li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li > a:hover {
+    background: #751010;
+    padding: 10px; 
+    border-bottom: solid 2px;
+}
+
+#id1 {
+    font-family: 'Times New  Roman';
+    font-size: 100%;
+    padding-top: 4%;
+    padding-right: 70%;
+    float: left;
+    color: #504c4c;
+    text-align: justify;
+}
+
+#id2 {
+    font-size: 100%;
+    font-family: 'Times New Roman';
+    padding-top: 23%;
+    padding-left: 69%;
+    color: #504c4c;
+    text-align: justify;
+}
+
+#id3 {
+    font-size: 100%;
+    font-family: 'Times New Roman';
+    padding-right: 70%;
+    padding-top: 8%;
+    color: #504c4c;
+    text-align: justify;
+}
+
+#cont1 {
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 70px;
+}
+
+#cont2 {
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 70px;
+}
+
+#cont3  {
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 70px;
+}
+
+.loc1 {
+    overflow: hidden;
+    background: #333;
+    padding: 55%;
+}
+
+#menu {
+    height: 151px;
+    background-color: #333;
+    width: 150px;
+    float: left;
+    
+}
+
+#principal {
+    height: 125px;
+    width: 750px;
+    background-color: #333;
+    float: left;
+    padding-top: 2%;
+}
+
+#principal li {
+    list-style: none;
+}
+
+#evandro {
+    height: 125px;
+    width: 410px;
+    background-color: #333;
+    float: right;
+    padding-top: 2%;
+}
+
+#evandro li {
+    list-style-type: none;
+}
+
+#Footer {
+    height: 17px;
+    background-color: #333;
+    clear: both;
+    text-align: center;
+}
